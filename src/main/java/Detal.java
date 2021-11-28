@@ -14,8 +14,6 @@ public class Detal implements Comparable<Detal> {
     Integer Articul;
     float Price;
 
-    private int numDetal;
-    private String nameDetal;
 
 
     public int getId() {
@@ -26,7 +24,7 @@ public class Detal implements Comparable<Detal> {
         this.id = id;
     }
 
-    public int getIdProivoditel() {
+    public int getidProizvoditel() {
         return idProizvoditel;
     }
     public void setidProizvoditel( int idProizvoditel) {
@@ -40,10 +38,10 @@ public class Detal implements Comparable<Detal> {
         this.Name = Name;
     }
 
-    public Integer getArticul() {
+    public int getArticul() {
         return Articul;
     }
-    public void setArticul( Integer Articul) {
+    public void setArticul( int Articul) {
         this.Articul = Articul;
     }
     public float getPrice() {

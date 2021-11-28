@@ -19,12 +19,15 @@ public class Proizvoditel {
     public String getNameProizvoditel() {
         return nameProizvoditel;
     }
+
     public void setNameProizvoditel(String nameDetal) {
         this.nameProizvoditel = nameDetal;
     }
+
     public void setList(List<Detal> list) {
         this.list = list;
     }
+
     public List<Detal> getList() {
         return list;
     }
@@ -98,7 +101,7 @@ public List<Detal> viewProizvoditel(List<Detal> list, int idProizvoditel){
 
         Detal w2 = new Detal();
 
-        w2.setId(1);
+        w2.setId(2);
         w2.setName("KorobkaPeredach");
         w2.setArticul(2);
         w2.setidProizvoditel(15);
@@ -106,7 +109,7 @@ public List<Detal> viewProizvoditel(List<Detal> list, int idProizvoditel){
 
         Detal w3 = new Detal();
 
-        w3.setId(1);
+        w3.setId(3);
         w3.setName("Fara");
         w3.setArticul(3);
         w3.setidProizvoditel(15);
@@ -114,7 +117,7 @@ public List<Detal> viewProizvoditel(List<Detal> list, int idProizvoditel){
 
         Detal w4 = new Detal();
 
-        w4.setId(1);
+        w4.setId(4);
         w4.setName("TormozWater");
         w4.setArticul(4);
         w4.setidProizvoditel(15);
@@ -122,7 +125,7 @@ public List<Detal> viewProizvoditel(List<Detal> list, int idProizvoditel){
 
         Detal w5 = new Detal();
 
-        w5.setId(1);
+        w5.setId(5);
         w5.setName("Porshenx12");
         w5.setArticul(331);
         w5.setidProizvoditel(15);
@@ -130,7 +133,7 @@ public List<Detal> viewProizvoditel(List<Detal> list, int idProizvoditel){
 
         Detal w6 = new Detal();
 
-        w6.setId(1);
+        w6.setId(6);
         w6.setName("Dvigyn");
         w6.setArticul(6);
         w6.setidProizvoditel(15);

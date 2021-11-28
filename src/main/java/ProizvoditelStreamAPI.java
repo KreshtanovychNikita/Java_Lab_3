@@ -59,7 +59,7 @@ public class ProizvoditelStreamAPI {
 
         Detal w2 = new Detal();
 
-        w2.setId(1);
+        w2.setId(2);
         w2.setName("KorobkaPeredach");
         w2.setArticul(2);
         w2.setidProizvoditel(15);
@@ -67,7 +67,7 @@ public class ProizvoditelStreamAPI {
 
         Detal w3 = new Detal();
 
-        w3.setId(1);
+        w3.setId(3);
         w3.setName("Fara");
         w3.setArticul(3);
         w3.setidProizvoditel(15);
@@ -75,7 +75,7 @@ public class ProizvoditelStreamAPI {
 
         Detal w4 = new Detal();
 
-        w4.setId(1);
+        w4.setId(4);
         w4.setName("TormozWater");
         w4.setArticul(4);
         w4.setidProizvoditel(15);
@@ -83,7 +83,7 @@ public class ProizvoditelStreamAPI {
 
         Detal w5 = new Detal();
 
-        w5.setId(1);
+        w5.setId(5);
         w5.setName("Porshenx12");
         w5.setArticul(331);
         w5.setidProizvoditel(15);
@@ -91,7 +91,7 @@ public class ProizvoditelStreamAPI {
 
         Detal w6 = new Detal();
 
-        w6.setId(1);
+        w6.setId(6);
         w6.setName("Dvigyn");
         w6.setArticul(6);
         w6.setidProizvoditel(15);
